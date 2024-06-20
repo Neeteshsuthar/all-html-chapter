@@ -1,13 +1,37 @@
 <html>
 <head>
 <title>Assignment</title>
+<link rel="stylesheet" href="./index.css" />
+
+<style>
+  th{
+    color:blue;
+  }
+  td{
+    color: rgb(1, 224, 113);
+  }
+  a{
+    color: rgb(98, 255, 36);
+  }
+  p{
+    color: black;
+  }
+  dt{
+    color: red;
+  }
+  h3{
+    color: darkmagenta;
+  }
+</style>
 </head>
 <body>
 <!-- Header Start -->
 <div>
 <center>
-<h1> Wellcome to Learn HTML Basic</h1>
-<span>
+<br />
+<br />
+<h1 style="color: rgb(18, 41, 255);"> Wellcome to Learn HTML Basic</h1>
+<span> <b>
 <a href="#Structure">Structure</a> 
 <a href="#Text">Text</a> <span> 
 <a href="#Lists">Lists</a>
@@ -17,6 +41,7 @@
 <a href="#Form">Forms</a>
 <a href="#Extra">Extra Markup</a>
 <a href="#Media">Media</a>
+</b>
 </span>
 </center>
 </div>
@@ -27,7 +52,7 @@
 <br />
 <!-- chapter 1 start -->
 <div>
-<h2 id=" Structure">Chapter1: Structure</h2>
+<h2 id=" Structure"> <span>Chapter 1</span>: Structure</h2>
 <hr />
 <p>The structure of an HTML document includes the use of elements such as html, head, and body. These elements help to define the layout and content of a web page.</p>
 </div>
@@ -40,7 +65,7 @@
 
 <!-- chapter 2 start -->
 <div>
-<h2 id="Text">Chapter 2: Text</h2>
+<h2 id="Text"><span>Chapter 2</span>: Text</h2>
 <hr />
 <h3>Headings </h3>
 <p>HTML offers six levels of headings, from h1 to h6. Each heading level represents a different level of importance.</p>
@@ -68,7 +93,7 @@
 <!-- chapter 3 start -->
 
 <div>
-<h2 id="Lists">Chapter 3: Lists</h2>
+<h2 id="Lists"><span>Chapter 3</span>: Lists</h2>
 <hr />
 <h3>Ordered List</h3>
 
@@ -83,14 +108,14 @@
    </li>
    <li>Second item
          <ol>
-	   <li>First sub</li>
-	   <li>Second sub
-          <ol>
-	   <li>Sub sub item 1</li>
-	   <li>Sub sub item 2</li>
-     </ol>
-          </li>
-     </ol>
+	          <li>First sub</li>
+	          <li>Second sub
+                <ol>
+	                 <li>Sub sub item 1</li>
+	                 <li>Sub sub item 2</li>
+                </ol>
+            </li>
+        </ol>
    </li>
    <li>Third item</li>
  </ol>
@@ -102,21 +127,21 @@
    <li>
       First item
        <ul>
-	  <li>First sub</li>
-	   <li>Second sub</li>
+	        <li>First sub</li>
+	        <li>Second sub</li>
      </ul>
 
    </li>
    <li>Second item
-         <ul>
-	   <li>First sub</li>
-	   <li>Second sub
-          <ul>
-	   <li>Sub sub item 1</li>
-	   <li>Sub sub item 2</li>
-     </ul>
+        <ul>
+	        <li>First sub</li>
+	        <li>Second sub
+              <ul>
+	               <li>Sub sub item 1</li>
+	               <li>Sub sub item 2</li>
+              </ul>
           </li>
-     </ul>
+        </ul>
    </li>
    <li>Third item</li>
  </ol>
@@ -145,11 +170,11 @@
 <br />
 <!-- chapter 4 start -->
 <div>
-<h2 id="Links">Chapter4: Links</h2>
+<h2 id="Links"><span>Chapter 4</span>: Links</h2>
 <hr />
 
 <p>
-<a href="https://www.netlify.com/">Netlify.com</a>
+<a href="https://www.netlify.com/" target="_blank">Netlify.com</a>
 </p>
 
 </div>
@@ -164,7 +189,7 @@
 <!-- chapter 5 start -->
 
 <div>
-<h2 id="Image">Chapter5: Images</h2>
+<h2 id="Image"><span>Chapter 5</span>: Images</h2>
 <hr />
 
 <p>Images are embedded using the img tag.</p>
@@ -182,7 +207,7 @@
 
 <!-- chapter 6 start -->
 <div>
-<h2 id="Table">Chapter6: Table</h2>
+<h2 id="Table"><span>Chapter 5</span>: Table</h2>
 <hr />
 
 <table border="1px" width="100%" height="200px" cellpadding="10px">
@@ -234,14 +259,10 @@
 <br />
 <!-- chapter 7 start -->
 <div>
-<h2 id="Form">Chapter7: Form</h2>
+<h2 id="Form"><span>Chapter 6</span>: Form</h2>
 <hr />
 
 <form  method="post" action="https://practicaltest.netlify.app/pages/assignment">
-
-
-
-
 
 <fieldset> <legend>Personal Info</legend><br /><br />
 <b><label for="name">Name</label> </b> <br />
@@ -284,7 +305,7 @@
 <br /></br /></br />
 <!-- chapter 8 start -->
 <div>
-<h2 id="Extra">Chapter8: Extra Markup</h2>
+<h2 id="Extra"><span>Chapter 8</span>: Extra Markup</h2>
 <hr />
 <div>
 <span>
@@ -303,10 +324,10 @@
 <br /></br /></br />
 <!-- chapter 9 start -->
 <div>
-<h2 id="Media">Chapter9: Media</h2>
+<h2 id="Media"><span>Chapter 9</span>: Media</h2>
 <hr />
 
-<video controls height="200px" width="200px">
+<video controls height="250px" width="300px">
 <source src="RPReplay_Final1711041444.mov"></source>
 </video>
 
@@ -319,9 +340,10 @@
 </audio>
 </div>
 <!-- chapter 9 end -->
+ <br /><br /><br />
 <!-- footer start -->
 <div>
- <p align="center">© 2024 powered by nitesh kumar<p>
+ <p align="center" style="color: red;">© 2024 powered by nitesh kumar<p>
 </div>
 <!-- footer end -->
 </body>
