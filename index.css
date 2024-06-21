@@ -1,9 +1,33 @@
+
 h2{
 color: red;
+background-color: rgb(236, 216, 255);
+padding: 20px;
 }
-span{
+.chapter{
     color: rgb(13, 198, 255);
 }
 hr{
     color: rgb(255, 179, 37);
+}
+form{
+    background-color: rgb(255, 206, 206);
+    padding: 30px;
+}
+.button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 280px;
+    font-size: 15px;
+    background-color: coral;
+}
+table{
+    background-color: rgb(252, 202, 233);
+    padding: 50px;
+}
+#footer{
+    background-color: black;
+    height: 90px;
+    padding-top: 30px;
 }
