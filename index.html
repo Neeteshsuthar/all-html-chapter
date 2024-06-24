@@ -1,360 +1,454 @@
 <html>
+
 <head>
-<title>Assignment</title>
-<link rel="stylesheet" href="./index.css" />
+  <title>Assignment</title>
+  <link rel="stylesheet" href="./index.css" />
 
-<style>
-  th{
-    color:blue;
-  }
-  td{
-    color: rgb(2, 119, 61);
-  }
-  a{
-    color: rgb(255, 17, 116);
-    margin-left: 40px;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  a:hover{
-    color: white;
-  }
-  p{
-    color: black;
-  }
-  dt{
-    color: red;
-  }
-  h3{
-    color: darkmagenta;
-  }
-  #header{
-  background-color: rgb(82, 75, 75);
-  margin: 0px;
-  }
-</style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+    body {
+      font-family: "Playwrite NG Modern", cursive;
+    }
+
+    th {
+      color: blue;
+    }
+
+    td {
+      color: rgb(2, 119, 61);
+    }
+
+    a {
+      color: rgb(255, 17, 116);
+      margin-left: 40px;
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    a:hover {
+      color: white;
+      font-family: "Playwrite NG Modern", cursive;
+    }
+
+    p {
+      color: black;
+    }
+
+    dt {
+      color: red;
+    }
+
+    h3 {
+      color: darkmagenta;
+    }
+
+    #header {
+      background-color: rgb(82, 75, 75);
+      margin: 0px;
+    }
+
+    ol>li {
+      color: red;
+    }
+
+
+    li ul {
+      color: green;
+    }
+
+    h4+p {
+      color: blue;
+    }
+
+    h2 {
+      color: red;
+      background-color: rgb(147, 55, 233);
+      padding: 20px;
+    }
+
+    .chapter {
+      color: rgb(13, 198, 255);
+    }
+
+    hr {
+      color: rgb(255, 179, 37);
+    }
+
+    form {
+      background-color: rgb(255, 206, 206);
+      padding: 30px;
+    }
+
+    .button {
+      padding: 10px;
+      width: 200px;
+      margin-top: 50px;
+      margin-left: 280px;
+      font-size: 15px;
+      background-color: coral;
+    }
+
+    table {
+      background-color: rgb(252, 202, 233);
+      padding: 50px;
+    }
+
+    #footer {
+      background-color: black;
+      height: 90px;
+      padding-top: 30px;
+    }
+    video{
+      border: 2px solid red;
+      margin-top: 100px;
+    }
+  </style>
 </head>
+
 <body>
-<!-- Header Start -->
-<div id="header">
-<center>
-<br />
-<h1 style="color: rgb(255, 255, 255);font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic;"> Wellcome to Learn HTML Basic</h1>
-<span> <b>
-<a href="#Structure">Structure</a> 
-<a href="#Text">Text</a> <span> 
-<a href="#Lists">Lists</a>
-<a href="#Links">Links</a>
-<a href="#Image">Images</a>
-<a href="#Table">Tables</a>
-<a href="#Form">Forms</a>
-<a href="#Extra">Extra Markup</a>
-<a href="#Media">Media</a>
-</b>
-</span>
-<br /><br /><br />
-</center>
-</div>
-<!-- Header end -->
-<br />
-<br />
-<br />
-<br />
-<!-- chapter 1 start -->
-<div>
-<h2 id=" Structure"> <span class="chapter">Chapter 1</span>: Structure</h2>
-<hr />
-<p>The structure of an HTML document includes the use of elements such as html, head, and body. These elements help to define the layout and content of a web page.</p>
-</div>
+  <!-- Header Start -->
+  <div id="header">
+    <center>
+      <br />
+      <h1 style="color: rgb(255, 255, 255); font-style: italic;">
+        Wellcome to Learn HTML Basic</h1>
+      <span> <b>
+          <a href="#Structure">Structure</a>
+          <a href="#Text">Text</a> <span>
+            <a href="#Lists">Lists</a>
+            <a href="#Links">Links</a>
+            <a href="#Image">Images</a>
+            <a href="#Table">Tables</a>
+            <a href="#Form">Forms</a>
+            <a href="#Extra">Extra Markup</a>
+            <a href="#Media">Media</a>
+        </b>
+      </span>
+      <br /><br /><br />
+    </center>
+  </div>
+  <!-- Header end -->
+  <br />
+  <br />
+  <br />
+  <br />
+  <!-- chapter 1 start -->
+  <div>
+    <h2 id=" Structure"> <span class="chapter">Chapter 1</span>: Structure</h2>
+    <hr />
+    <p>The structure of an HTML document includes the use of elements such as html, head, and body. These elements help
+      to define the layout and content of a web page.</p>
+  </div>
 
-<!-- chapter 1 end -->
-<br />
-<br />
-<br />
-<br />
+  <!-- chapter 1 end -->
+  <br />
+  <br />
+  <br />
+  <br />
 
-<!-- chapter 2 start -->
-<div>
-<h2 id="Text"><span class="chapter">Chapter 2</span>: Text</h2>
-<hr />
-<h3>Headings </h3>
-<p>HTML offers six levels of headings, from h1 to h6. Each heading level represents a different level of importance.</p>
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<hr />
-<h3>Headings 3</h3>
-<h4>Headings 4</h4>
-<h5>Headings 5</h5>
-<h6>Headings 6</h6>
+  <!-- chapter 2 start -->
+  <div>
+    <h2 id="Text" style="background-color: rgb(253, 152, 152);"><span class="chapter">Chapter 2</span>: Text</h2>
+    <hr />
+    <h3>Headings </h3>
+    <p>HTML offers six levels of headings, from h1 to h6. Each heading level represents a different level of importance.
+    </p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <hr />
+    <h3>Headings 3</h3>
+    <h4>Headings 4</h4>
+    <h5>Headings 5</h5>
+    <h6>Headings 6</h6>
+
+    <h4>Headings </h4>
+    <p>Headings </p>
 
 
-<h3>Paragraphs</h3>
-<p>Paragraphs are defined with the p tag.</p>
-<p>This is a sample paragraph demonstrating the paragraph tag.</p>
 
-</div>
 
-<!-- chapter 2 end -->
-<br />
-<br />
-<br />
-<br />
+    <h3>Paragraphs</h3>
+    <p>Paragraphs are defined with the p tag.</p>
+    <p>This is a sample paragraph demonstrating the paragraph tag.</p>
 
-<!-- chapter 3 start -->
+  </div>
 
-<div>
-<h2 id="Lists"><span class="chapter">Chapter 3</span>: Lists</h2>
-<hr />
-<h3>Ordered List</h3>
+  <!-- chapter 2 end -->
+  <br />
+  <br />
+  <br />
+  <br />
 
- <ol>
-   <li>
-      First item
-       <ol>
-	   <li>First sub</li>
-	   <li>Second sub</li>
-     </ol>
+  <!-- chapter 3 start -->
 
-   </li>
-   <li>Second item
-         <ol>
-	          <li>First sub</li>
-	          <li>Second sub
-                <ol>
-	                 <li>Sub sub item 1</li>
-	                 <li>Sub sub item 2</li>
-                </ol>
-            </li>
+  <div>
+    <h2 id="Lists" style="background-color: rgb(156, 7, 99);"> <span class="chapter">Chapter 3</span>: Lists</h2>
+    <hr />
+    <h3>Ordered List</h3>
+
+    <ol>
+      <li>
+        First item
+        <ol>
+          <li>First sub</li>
+          <li>Second sub</li>
         </ol>
-   </li>
-   <li>Third item</li>
- </ol>
+
+      </li>
+      <li>Second item
+        <ol>
+          <li>First sub</li>
+          <li>Second sub
+            <ol>
+              <li>Sub sub item 1</li>
+              <li>Sub sub item 2</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Third item</li>
+    </ol>
 
 
-<h3>Unordered List</h3>
+    <h3>Unordered List</h3>
 
-<ul>
-   <li>
-      First item
-       <ul>
-	        <li>First sub</li>
-	        <li>Second sub</li>
-     </ul>
-
-   </li>
-   <li>Second item
+    <ul>
+      <li>
+        First item
         <ul>
-	        <li>First sub</li>
-	        <li>Second sub
-              <ul>
-	               <li>Sub sub item 1</li>
-	               <li>Sub sub item 2</li>
-              </ul>
+          <li>First sub</li>
+          <li>Second sub</li>
+        </ul>
+
+      </li>
+      <li>Second item
+        <ul>
+          <li>First sub</li>
+          <li>Second sub
+            <ul>
+              <li>Sub sub item 1</li>
+              <li>Sub sub item 2</li>
+            </ul>
           </li>
         </ul>
-   </li>
-   <li>Third item</li>
- </ol>
+      </li>
+      <li>Third item</li>
+      </ol>
 
 
-<h3>Defination List</h3>
+      <h3>Defination List</h3>
 
-<dl>
-<dt>HTML</dt>
-<dd>A markup language for creating web pages.</dd>
+      <dl>
+        <dt>HTML</dt>
+        <dd>A markup language for creating web pages.</dd>
 
-<dt>CSS</dt>
-<dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+        <dt>CSS</dt>
+        <dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
 
-<dt>JavaScript</dt>
-<dd>A programming language commonly used in web development to create interactive effects within web browsers.
-</dd>
-</dl>
+        <dt>JavaScript</dt>
+        <dd>A programming language commonly used in web development to create interactive effects within web browsers.
+        </dd>
+      </dl>
 
-</div>
+  </div>
 
-<!-- chapter 3 end -->
-<br />
-<br />
-<br />
-<br />
-<!-- chapter 4 start -->
-<div>
-<h2 id="Links"><span class="chapter">Chapter 4</span>: Links</h2>
-<hr />
+  <!-- chapter 3 end -->
+  <br />
+  <br />
+  <br />
+  <br />
+  <!-- chapter 4 start -->
+  <div>
+    <h2 id="Links" style="background-color: rgb(25, 0, 255);"><span class="chapter">Chapter 4</span>: Links</h2>
+    <hr />
 
-<p>
-<a href="https://www.netlify.com/" target="_blank">Netlify.com</a>
-</p>
+    <p>
+      <a href="https://www.netlify.com/" target="_blank">Netlify.com</a>
+    </p>
 
-</div>
-<!-- chapter 4 end -->
-
-
-<br />
-<br />
-<br />
-<br />
-
-<!-- chapter 5 start -->
-
-<div>
-<h2 id="Image"><span class="chapter">Chapter 5</span>: Images</h2>
-<hr />
-
-<p>Images are embedded using the img tag.</p>
-
-<img src="./200w.gif" height="200px" width="200px" alt="wallpaper image" title="wallpaper image"/>
-
-</div>
-
-<!-- chapter 5 end -->
-
-<br />
-<br />
-<br />
-<br />
-
-<!-- chapter 6 start -->
-<div>
-<h2 id="Table"><span class="chapter">Chapter 5</span>: Table</h2>
-<hr />
-
-<table border="1px" width="100%" height="200px" cellpadding="10px">
-<tr> <th scope="col">Student Name</th>
-     <th scope="col">Father Name</th>
-</tr>
-
-<tr>
-<td>Madan</td>
-<td>Inder Chand</td>
-
-</tr>
-
-<tr>
-<td>Mahveer</td>
-<td>Narain</td>
-
-</tr>
+  </div>
+  <!-- chapter 4 end -->
 
 
+  <br />
+  <br />
+  <br />
+  <br />
 
-<tr>
-<td>Mahveer</td>
-<td>Madan</td>
+  <!-- chapter 5 start -->
 
-</tr>
+  <div>
+    <h2 id="Image" style="background-color: rgb(82, 255, 47);"><span class="chapter">Chapter 5</span>: Images</h2>
+    <hr />
 
+    <p>Images are embedded using the img tag.</p>
 
-<tr>
-<td>Akash</td>
-<td>Bhuro</td>
-</tr>
+    <img src="./200w.gif" height="200px" width="200px" alt="wallpaper image" title="wallpaper image" />
 
+  </div>
 
-<tr>
-<td>Lovesh</td>
-<td>Sarwan</td>
+  <!-- chapter 5 end -->
 
-</tr>
+  <br />
+  <br />
+  <br />
+  <br />
 
-</table>
-</div>
+  <!-- chapter 6 start -->
+  <div>
+    <h2 id="Table" style="background-color: rgb(0, 99, 90);"><span class="chapter">Chapter 6</span>: Table</h2>
+    <hr />
 
-<!-- chapter 6 end -->
+    <table border="1px" width="100%" height="200px" cellpadding="10px">
+      <tr>
+        <th scope="col">Student Name</th>
+        <th scope="col">Father Name</th>
+      </tr>
 
-<br />
-<br />
-<br />
-<br />
-<!-- chapter 7 start -->
-<div>
-<h2 id="Form"><span class="chapter">Chapter 6</span>: Form</h2>
-<hr />
+      <tr>
+        <td>Madan</td>
+        <td>Inder Chand</td>
 
-<form  method="post" action="https://practicaltest.netlify.app/pages/assignment">
+      </tr>
 
-<fieldset> <legend>Personal Info</legend><br /><br />
-<b><label for="name">Name</label> </b> <br />
-<input id="name" name="name" type="text" size="80" maxlength="100" required="required" placeholder="Enter your name"  /> <br /><br />
+      <tr>
+        <td>Mahveer</td>
+        <td>Narain</td>
 
-<b><label for="email">Email</label> </b><br />
-<input id="email" name="email" type="text"   size="80" required="required" placeholder="Enter your email"  /> <br /><br />
-
-<b><label for="phone">Phone</label> </b><br />
-<input id="phone" name="phone" type="tel" maxlength="13" required="required" placeholder="Enter your phone"/><br /><br /><br />
-</fieldset>
-
-<fieldset> <legend>Education</legend>
-<br />
-<label><input type="radio" name="education" value="Matriculation" /> Matriculation</label> <br /><br />
-<label><input type="radio" name="education" value="Intermediate"/> Intermediate</label> <br /><br />
-<label><input type="radio" name="education" value="Graduate"/> Graduate</label> <br /><br />
-<label><input type="radio" name="education" value="Master"/> Master</label> <br /><br />
-</fieldset>
+      </tr>
 
 
-<fieldset> <legend>Skills</legend><br />
-<label> <input type="checkbox" name="skills" value="Web development"/>Web development</label> <br /><br />
-<label> <input type="checkbox" name="skills" value="App development"/>App development</label> <br /><br />
-<label> <input type="checkbox" name="skills" value="Graphic Design"/>Graphic Design</label> <br /><br />
- 
-</fieldset>
+
+      <tr>
+        <td>Mahveer</td>
+        <td>Madan</td>
+
+      </tr>
 
 
-<input class="button" type="submit" /> 
-<input  class="button"  type="reset" />
+      <tr>
+        <td>Akash</td>
+        <td>Bhuro</td>
+      </tr>
 
 
-</form>
+      <tr>
+        <td>Lovesh</td>
+        <td>Sarwan</td>
+
+      </tr>
+
+    </table>
+  </div>
+
+  <!-- chapter 6 end -->
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <!-- chapter 7 start -->
+  <div>
+    <h2 id="Form"  style="background-color: rgb(1, 194, 1);"><span class="chapter">Chapter 6</span>: Form</h2>
+    <hr />
+
+    <form method="post" action="https://practicaltest.netlify.app/pages/assignment">
+
+      <fieldset>
+        <legend>Personal Info</legend><br /><br />
+        <b><label for="name">Name</label> </b> <br />
+        <input id="name" name="name" type="text" size="80" maxlength="100" required="required"
+          placeholder="Enter your name" /> <br /><br />
+
+        <b><label for="email">Email</label> </b><br />
+        <input id="email" name="email" type="text" size="80" required="required" placeholder="Enter your email" />
+        <br /><br />
+
+        <b><label for="phone">Phone</label> </b><br />
+        <input id="phone" name="phone" type="tel" maxlength="13" required="required"
+          placeholder="Enter your phone" /><br /><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <br />
+        <label><input type="radio" name="education" value="Matriculation" /> Matriculation</label> <br /><br />
+        <label><input type="radio" name="education" value="Intermediate" /> Intermediate</label> <br /><br />
+        <label><input type="radio" name="education" value="Graduate" /> Graduate</label> <br /><br />
+        <label><input type="radio" name="education" value="Master" /> Master</label> <br /><br />
+      </fieldset>
 
 
-</div>
+      <fieldset>
+        <legend>Skills</legend><br />
+        <label> <input type="checkbox" name="skills" value="Web development" />Web development</label> <br /><br />
+        <label> <input type="checkbox" name="skills" value="App development" />App development</label> <br /><br />
+        <label> <input type="checkbox" name="skills" value="Graphic Design" />Graphic Design</label> <br /><br />
 
-<!-- chapter 7 end -->
-<br /></br /></br />
-<!-- chapter 8 start -->
-<div>
-<h2 id="Extra"><span class="chapter">Chapter 8</span>: Extra Markup</h2>
-<hr />
-<div>
-<span>
-<h4>Paragraph one</h4>
-<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-</span>
-
-<span>
-<h4>Paragraph two</h4>
-<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-</span>
-
-</div>
-</div>
-<!-- chapter 8 end-->
-<br /></br /></br />
-<!-- chapter 9 start -->
-<div>
-<h2 id="Media"><span class="chapter">Chapter 9</span>: Media</h2>
-<hr />
-
-<video controls height="250px" width="300px">
-<source src="RPReplay_Final1711041444.mov"></source>
-</video>
-
-<br />
-<br /> 
+      </fieldset>
 
 
-<audio controls height="200px" width="200px">
-<source src="RPReplay_Final1711041444.mov"></source>
-</audio>
-</div>
-<!-- chapter 9 end -->
- <br /><br /><br />
-<!-- footer start -->
-<div id="footer">
- <p align="center" style="color: rgb(228, 228, 228);">© 2024 powered by nitesh kumar<p>
-</div>
-<!-- footer end -->
+      <input class="button" type="submit" />
+      <input class="button" type="reset" />
+
+
+    </form>
+
+
+  </div>
+
+  <!-- chapter 7 end -->
+  <br /></br /></br />
+  <!-- chapter 8 start -->
+  <div>
+    <h2 id="Extra"  style="background-color: rgb(158, 4, 38);"><span class="chapter">Chapter 8</span>: Extra Markup</h2>
+    <hr />
+    <div>
+      <span>
+        <h4>Paragraph one</h4>
+        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+          ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+      </span>
+
+      <span>
+        <h4>Paragraph two</h4>
+        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+          ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+      </span>
+
+    </div>
+  </div>
+  <!-- chapter 8 end-->
+  <br /></br /></br />
+  <!-- chapter 9 start -->
+  <div>
+    <h2 id="Media"  style="background-color: rgb(0, 0, 0);"><span class="chapter">Chapter 9</span>: Media</h2>
+    <hr />
+
+    <video controls height="500px" width="100%">
+      <source src="./Download.mp4">
+      </source>
+    </video>
+
+    <br />
+    <br />
+
+
+    <audio controls height="200px" width="700px">
+      <source src="RPReplay_Final1711041444.mov">
+      </source>
+    </audio>
+  </div>
+  <!-- chapter 9 end -->
+  <br /><br /><br />
+  <!-- footer start -->
+  <div id="footer">
+    <p align="center" style="color: rgb(228, 228, 228);">© 2024 powered by nitesh kumar
+    <p>
+  </div>
+  <!-- footer end -->
 </body>
+
 </html>
